@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+.fullbox{
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+.firstbox{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 580px;
+    width: 150px;
+}
+.logo{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+    margin: 1px;
+    width: 120px;
+    height: 300px;
+}
+.menu-list{
+    padding: 3px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.end{
+    display: flex;
+    height: 70px;
+    margin-top: 140px;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.symbol{
+    padding-top: 1px;
+    padding-left: 5px;
+    width: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+}
+.Graciella{
+    font-size: large;
+    font-weight: bolder;
+}
+.team{
+    color: rgb(77, 75, 75);
+}
+.secondbox{
+    height: 600px;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.boxout{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(233, 229, 229);
+}
+.boxin{
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.smallbox{
+    padding: 5px;
+}
+.smallbox-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid silver 1px;
+}
+.fx{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 8px;
+    padding-left: 5px;
+    margin: 2px;
+    margin-bottom: 15px;
+}
+.invoice{
+    padding-right: 10px;
+    padding-top: 4px;
+}
+.smallbox-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 3px;
+}
+.s-name{
+    font-size: medium;
+    font-weight: bold;
+}
+.s-num{
+    color: silver;
+    font-size: small;
+}
+.smallbox-3{
+    padding: 5px;
+    font-size: small;
+    color: rgb(36, 36, 36);
+    margin-top: 30px;
+}
+.to{
+    font-size: small;
+    font-weight: bolder;
+}
+.smallbox-4,.smallbox--4{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    padding: 4px;
+}
+.smallbox--4{
+    background-color: rgb(233, 229, 229);
+}
+.smallbox-5{
+    display: flex;
+    justify-content: space-between;
+}
+.smallbox--5{
+    margin: 2px;
+    margin-top: 40px;
+    padding: 4px;
+}
+.smallbox---5{
+    margin-top: 35px;
+}
+.smallbox-6{
+    margin: 2px;
+    margin-top: 30px;
+    font-size: medium;
+    color: silver;
+    font-weight: 500;
+    padding: 6px;
+    text-align: center;
+}
+.thirdbox{
+    margin: 2px;
+    padding: 6px;
+    width: 270px;
+    height: 600px;
+    margin-top: 10px;
+}
+.invoice-detail{
+    font-size: large;
+    font-weight: bolder;
+    margin: 2px;
+    padding: 5px;
+    padding-top: 25px;  
+}
+.thirdbox-1{
+    margin: 2px;
+    padding: 3px;
+}
+.t-smallbox-1{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: bolder;
+    padding: 3px;
+    border: solid rgb(85, 85, 85) 1px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 6px;
+    padding-top: 3px;
+}
+.Bussiness{
+    color: silver;
+}
+.t-symbol{
+    padding-top: 4px;
+
+}
+.t-smallbox{
+    border: solid silver 2px;
+    color: black;
+    background-color: rgb(252, 249, 249);;
+    padding: 1px;
+    border-radius: 6px;
+    margin-top: 3px;
+    font-size: small;
+    font-weight: bold;
+}
+.t-smallbox-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: medium;
+    margin-top: 3px;
+    border: solid rgb(129, 128, 128) 2px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 5px;
+}
+.add-items{
+    color: blue;
+    font-weight: bold;
+    padding: 3px;
+    margin: 2px;
+    padding: 4px;
+}
+.invoice-1{
+    text-align: center;
+    margin: 2px;
+    margin-top: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+.Print-down{
+    display: flex;
+    padding: 5px;
+}
+.Print{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: silver;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.down{
+    margin-left: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: silver;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
